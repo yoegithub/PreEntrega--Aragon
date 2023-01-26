@@ -140,7 +140,6 @@
 i.toggle-menu img {
   width: 32px;
   z-index: 99;
-  position:static
 }
 
 .toggle-menu {
@@ -159,6 +158,10 @@ input#check {
 
   /*----MENUTOGGLE----*/
 
+  i.toggle-menu img {
+    position: absolute;
+  }
+
   i.toggle-menu {
     display: flex;
   }
@@ -176,10 +179,11 @@ input#check {
 
   label.checkbtn {
     position: fixed;
-    right: 5%;
-    top: 5%;
+    right: 10%;
+    top: 6%;
     z-index: 9999;
     cursor: pointer;
+    position: absolute;
   }
 
   #check:checked ~ ul {
