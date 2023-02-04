@@ -230,7 +230,7 @@ input#check {
 
 .hero {
   height: 100vh;
-  background-image: linear-gradient(rgba(16, 16, 16, .8), rgba(16, 16, 16, .8)), url(/img/img8.jpg);
+  background-image: linear-gradient(rgba(16, 16, 16, .8), rgba(16, 16, 16, .8)), url(img/img8.jpg);
   background-size: cover;
   max-width: 100%;
   display: grid;
@@ -529,7 +529,7 @@ input#check {
 
 .hero2 {
   height: 100vh;
-  background-image: linear-gradient(rgba(16, 16, 16, .8), rgba(16, 16, 16, .8)), url(/img/img8.jpg);
+  background-image: linear-gradient(rgba(16, 16, 16, .8), rgba(16, 16, 16, .8)), url(img/img8.jpg);
   background-size: cover;
   max-width: 100%;
 }
